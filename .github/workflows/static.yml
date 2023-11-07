@@ -41,3 +41,6 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
+      - name : Setting .evn
+        run : |
+          echo "KAKAO_APP_KEY =${{secrets.KAKAO_REST_KEY}}" >> .env

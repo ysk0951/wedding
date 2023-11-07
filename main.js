@@ -1,0 +1,1 @@
+const apiKey = process.env.KAKAO_REST_KEY;
