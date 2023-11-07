@@ -5062,7 +5062,9 @@ tbody.collapse.show {
   background-color: #fff;
   border: 1px solid #dee2e6;
 }
-
+.page-content {
+  background: url("../images/background.jpeg");
+}
 .page-link:hover {
   color: #f04d30;
   text-decoration: none;
@@ -9756,7 +9758,6 @@ body {
 
 /* Home Page Style */
 .ww-home-page {
-  background: url("../images/background.jpeg");
   background-size: cover;
   background-position: 50%;
   height: 100vh;
@@ -9767,7 +9768,7 @@ body {
   width: 100%;
   max-width: 1600px;
   margin: 0 auto;
-  height: 140%;
+  height: 100%;
   text-align: center;
   letter-spacing: 2px;
   font-size: 14.4px;
@@ -9793,11 +9794,13 @@ body {
 
 .ww-home-page .ww-wedding-announcement .ww-couple-name {
   font-size: 70px;
+  font-family: 'Noto Serif KR', serif;
 }
 
 @media (max-width: 576px) {
   .ww-home-page .ww-wedding-announcement .ww-couple-name {
       font-size: 50px;
+      font-family: 'Noto Serif KR', serif;
   }
 }
 
